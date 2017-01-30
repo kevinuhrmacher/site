@@ -19,5 +19,9 @@
     "gulp-util": "^3.0.5",
     "require-dir": "^0.3.0",
     "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp-swig": "^0.8.0"
   }
 }

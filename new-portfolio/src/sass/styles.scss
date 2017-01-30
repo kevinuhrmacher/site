@@ -1,3 +1,11 @@
+@import "_bootstrap.scss";
+
 body {
-  font: black;
+  color: black;
+}
+
+.content-well {
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 200px;
 }

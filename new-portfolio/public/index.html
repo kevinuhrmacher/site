@@ -1,1 +1,42 @@
-<h2>This is working</h2>
+<html>
+
+
+<head>
+	<script src="https://use.fontawesome.com/3fb1da5028.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<div class="content-well">
+	<div class="container-fluid">
+		
+		<div class="row">
+			<h2>This is working</h2>
+		</div>
+
+		
+		<div class="row">
+
+			<div class="col-md-6">
+			
+				{% for project in data/projects.json %}
+					<p><i class="fa fa-user-circle" aria-hidden="true"></i> {{ project.headline }}</p>
+				{% endfor %}
+
+			</div>
+
+			<div class="col-md-6">
+
+				<p><i class="fa fa-user-circle" aria-hidden="true"></i> {{ project.headline }}</p>
+
+			</div>
+
+		</div>
+
+
+	</div>
+</div>
+
+
+
+</html>
